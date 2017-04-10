@@ -7,7 +7,7 @@ class Simulator(object):
     def __init__(self, width, height, rate=100):
         pygame.init()
         self.screen = pygame.display.set_mode((width,height))
-        pygame.display.set_caption('Leviosa')
+        pygame.display.set_caption('CartPole Evolution')
         self.objects = {}
         self.rate = rate
 
